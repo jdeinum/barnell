@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "barnell-build",
-        "directory": "/home/deinum/Documents/projects/barnell/project",
-        "workspaceDir": "/home/deinum/Documents/projects/barnell/project",
+        "directory": "/home/deinum/Repos/barnell/project",
+        "workspaceDir": "/home/deinum/Repos/barnell/project",
         "sources": [
-            "/home/deinum/Documents/projects/barnell/project/src/main/scala",
-            "/home/deinum/Documents/projects/barnell/project/src/main/scala-2.12",
-            "/home/deinum/Documents/projects/barnell/project/src/main/scala-2",
-            "/home/deinum/Documents/projects/barnell/project/src/main/java",
-            "/home/deinum/Documents/projects/barnell/project/src/main/scala-sbt-1.0",
-            "/home/deinum/Documents/projects/barnell/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/home/deinum/Repos/barnell/project/src/main/scala",
+            "/home/deinum/Repos/barnell/project/src/main/scala-2.12",
+            "/home/deinum/Repos/barnell/project/src/main/scala-2",
+            "/home/deinum/Repos/barnell/project/src/main/java",
+            "/home/deinum/Repos/barnell/project/src/main/scala-sbt-1.0",
+            "/home/deinum/Repos/barnell/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -127,11 +127,11 @@
             "/home/deinum/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar",
             "/home/deinum/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"
         ],
-        "out": "/home/deinum/Documents/projects/barnell/project/.bloop/barnell-build",
-        "classesDir": "/home/deinum/Documents/projects/barnell/project/.bloop/barnell-build/scala-2.12/sbt-1.0/classes",
+        "out": "/home/deinum/Repos/barnell/project/.bloop/barnell-build",
+        "classesDir": "/home/deinum/Repos/barnell/project/.bloop/barnell-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/home/deinum/Documents/projects/barnell/project/src/main/resources",
-            "/home/deinum/Documents/projects/barnell/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/home/deinum/Repos/barnell/project/src/main/resources",
+            "/home/deinum/Repos/barnell/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -145,10 +145,9 @@
             ],
             "jars": [
                 "/home/deinum/.sbt/boot/scala-2.12.15/lib/scala-library.jar",
-                "/home/deinum/.sbt/boot/scala-2.12.15/lib/jline.jar",
-                "/home/deinum/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar",
+                "/home/deinum/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12-1.0.6.jar",
                 "/home/deinum/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar",
-                "/home/deinum/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar"
+                "/home/deinum/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar"
             ],
             "setup": {
                 "order": "mixed",
@@ -224,7 +223,7 @@
             "config": {
                 "home": "/usr/lib/jvm/java-18-openjdk",
                 "options": [
-                    "-Duser.dir=/home/deinum/Documents/projects/barnell/project"
+                    "-Duser.dir=/home/deinum/Repos/barnell/project"
                 ]
             },
             "mainClass": [
